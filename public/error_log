@@ -1,0 +1,146 @@
+[12-Jan-2018 17:19:08 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/f49f536c7b65c14def2c80cc4b61095cfa1c13ba.php on line 43
+[12-Jan-2018 20:00:34 UTC] PHP Parse error:  syntax error, unexpected ''data-parsley-minlength'' (T_CONSTANT_ENCAPSED_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 22
+[12-Jan-2018 20:04:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 26
+[12-Jan-2018 20:08:42 UTC] PHP Parse error:  syntax error, unexpected 'content' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 5
+[12-Jan-2018 20:48:55 UTC] PHP Fatal error:  Call to undefined function get() in /home1/anatheso/public_html/bradfieldconsulting/site/routes/web.php on line 34
+[12-Jan-2018 20:52:58 UTC] PHP Fatal error:  Call to undefined function get() in /home1/anatheso/public_html/bradfieldconsulting/site/routes/web.php on line 34
+[12-Jan-2018 20:55:29 UTC] PHP Fatal error:  Call to undefined function get() in /home1/anatheso/public_html/bradfieldconsulting/site/routes/web.php on line 34
+[12-Jan-2018 20:56:01 UTC] PHP Fatal error:  Call to undefined function get() in /home1/anatheso/public_html/bradfieldconsulting/site/routes/web.php on line 34
+[12-Jan-2018 20:56:04 UTC] PHP Fatal error:  Call to undefined function get() in /home1/anatheso/public_html/bradfieldconsulting/site/routes/web.php on line 34
+[12-Jan-2018 20:56:50 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/02458416b53f50863b723ffc12678d7e0e910ec9.php on line 18
+[12-Jan-2018 20:58:50 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/02458416b53f50863b723ffc12678d7e0e910ec9.php on line 18
+[12-Jan-2018 20:59:58 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/02458416b53f50863b723ffc12678d7e0e910ec9.php on line 20
+[12-Jan-2018 21:01:58 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/02458416b53f50863b723ffc12678d7e0e910ec9.php on line 20
+[12-Jan-2018 21:23:55 UTC] PHP Parse error:  syntax error, unexpected ''data-parsley-minlength'' (T_CONSTANT_ENCAPSED_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1811701310c4d5d20643e2f16948491747fd82f0.php on line 21
+[13-Jan-2018 19:53:47 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Category' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 21
+[13-Jan-2018 20:00:26 UTC] PHP Parse error:  syntax error, unexpected 'POST' (T_STRING), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/6207bf0b53cdb40c8d1dbec9ce0f45eca9717aee.php on line 48
+[13-Jan-2018 20:13:06 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 39
+[13-Jan-2018 20:13:31 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 39
+[13-Jan-2018 20:13:31 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 39
+[13-Jan-2018 20:13:56 UTC] PHP Parse error:  syntax error, unexpected '$category' (T_VARIABLE) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 39
+[13-Jan-2018 20:14:33 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Category' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 39
+[13-Jan-2018 20:15:00 UTC] PHP Fatal error:  Class 'App\Session' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CategoryController.php on line 45
+[13-Jan-2018 21:24:20 UTC] PHP Parse error:  syntax error, unexpected ':' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 22
+[13-Jan-2018 21:28:08 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Session' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 53
+[13-Jan-2018 21:28:36 UTC] PHP Fatal error:  Cannot use App\Tag as Tag because the name is already in use in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 8
+[13-Jan-2018 21:48:25 UTC] PHP Parse error:  syntax error, unexpected ':' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 35
+[13-Jan-2018 21:51:09 UTC] PHP Fatal error:  Class 'App\Catgory' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 35
+[13-Jan-2018 21:51:22 UTC] PHP Parse error:  syntax error, unexpected ''data-parsley-minlength'' (T_CONSTANT_ENCAPSED_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1811701310c4d5d20643e2f16948491747fd82f0.php on line 21
+[13-Jan-2018 21:52:32 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1811701310c4d5d20643e2f16948491747fd82f0.php on line 26
+[13-Jan-2018 22:03:17 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 92
+[13-Jan-2018 22:03:30 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 92
+[13-Jan-2018 22:03:34 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 92
+[13-Jan-2018 22:03:46 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 92
+[13-Jan-2018 22:04:09 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 92
+[13-Jan-2018 22:04:23 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 92
+[14-Jan-2018 01:25:22 UTC] PHP Parse error:  syntax error, unexpected ':' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 36
+[14-Jan-2018 01:55:22 UTC] PHP Fatal error:  Class 'App\Http\Controllers\Tag' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 100
+[14-Jan-2018 02:47:52 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 148
+[14-Jan-2018 02:48:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 148
+[14-Jan-2018 03:01:21 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:01:52 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:01:57 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:02:21 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:02:26 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:02:56 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:03:12 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:03:36 UTC] PHP Parse error:  syntax error, unexpected ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1889f53a2f7d53523dbd22b2603bcc30404eaa92.php on line 57
+[14-Jan-2018 03:07:44 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 45
+[14-Jan-2018 03:46:14 UTC] PHP Parse error:  syntax error, unexpected ''class'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1811701310c4d5d20643e2f16948491747fd82f0.php on line 28
+[14-Jan-2018 04:11:17 UTC] PHP Fatal error:  Class 'Appp\Tag' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 70
+[14-Jan-2018 05:03:44 UTC] PHP Parse error:  syntax error, unexpected ':' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 85
+[14-Jan-2018 07:11:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 101
+[14-Jan-2018 07:12:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 101
+[14-Jan-2018 07:48:36 UTC] PHP Parse error:  syntax error, unexpected ''])); ?>' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 37
+[14-Jan-2018 07:49:36 UTC] PHP Parse error:  syntax error, unexpected ''])); ?>' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 37
+[14-Jan-2018 07:50:07 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 75
+[14-Jan-2018 07:53:21 UTC] PHP Parse error:  syntax error, unexpected ''multiple'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/9e0fa9f2d5b6f73a9ff8209cef1ec43d907a919d.php on line 34
+[14-Jan-2018 20:13:16 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1b173f1dd32023ba1564402a88928c89e5aecfdd.php on line 4
+[14-Jan-2018 20:39:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1b173f1dd32023ba1564402a88928c89e5aecfdd.php on line 4
+[14-Jan-2018 20:40:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1b173f1dd32023ba1564402a88928c89e5aecfdd.php on line 4
+[14-Jan-2018 23:45:15 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/TagController.php on line 105
+[15-Jan-2018 00:53:04 UTC] PHP Parse error:  syntax error, unexpected ')', expecting variable (T_VARIABLE) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PagesController.php on line 25
+[15-Jan-2018 00:56:56 UTC] PHP Fatal error:  Call to undefined function crsf_field() in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/7262d40504365f5c00f968688a0f6e06c67ea5fb.php on line 14
+[15-Jan-2018 03:56:42 UTC] WTF
+[15-Jan-2018 11:19:05 UTC] WTF
+[16-Jan-2018 06:20:51 UTC] WTF
+[16-Jan-2018 07:14:15 UTC] WTF
+[16-Jan-2018 08:06:15 UTC] WTF
+[16-Jan-2018 08:06:59 UTC] WTF
+[16-Jan-2018 08:07:01 UTC] WTF
+[16-Jan-2018 08:07:26 UTC] WTF
+[16-Jan-2018 08:28:56 UTC] WTF
+[16-Jan-2018 17:32:09 UTC] WTF
+[16-Jan-2018 17:43:25 UTC] WTF
+[16-Jan-2018 17:48:28 UTC] WTF
+[16-Jan-2018 17:48:37 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\flash() in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PagesController.php on line 46
+[16-Jan-2018 17:48:57 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\flash() in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PagesController.php on line 47
+[16-Jan-2018 17:49:09 UTC] PHP Fatal error:  Call to undefined function App\Http\Controllers\flash() in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PagesController.php on line 47
+[16-Jan-2018 17:49:43 UTC] WTF
+[16-Jan-2018 17:53:59 UTC] WTF
+[16-Jan-2018 18:00:00 UTC] WTF
+[16-Jan-2018 18:03:39 UTC] WTF
+[16-Jan-2018 18:04:39 UTC] WTF
+[16-Jan-2018 18:06:36 UTC] WTF
+[16-Jan-2018 18:08:22 UTC] WTF
+[16-Jan-2018 18:12:16 UTC] WTF
+[16-Jan-2018 18:12:47 UTC] WTF
+[16-Jan-2018 18:13:14 UTC] WTF
+[16-Jan-2018 18:30:57 UTC] WTF
+[16-Jan-2018 18:35:15 UTC] WTF
+[16-Jan-2018 18:38:48 UTC] WTF
+[16-Jan-2018 18:44:49 UTC] WTF
+[16-Jan-2018 18:54:56 UTC] WTF
+[16-Jan-2018 18:55:00 UTC] WTF
+[16-Jan-2018 18:55:50 UTC] WTF
+[16-Jan-2018 18:56:33 UTC] WTF
+[16-Jan-2018 18:57:03 UTC] WTF
+[16-Jan-2018 18:57:46 UTC] WTF
+[16-Jan-2018 19:58:13 UTC] WTF
+[16-Jan-2018 19:58:47 UTC] WTF
+[16-Jan-2018 19:59:07 UTC] WTF
+[16-Jan-2018 20:03:30 UTC] WTF
+[16-Jan-2018 20:10:55 UTC] WTF
+[16-Jan-2018 20:41:20 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 53
+[16-Jan-2018 20:42:47 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 53
+[16-Jan-2018 20:42:50 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 53
+[16-Jan-2018 20:43:18 UTC] PHP Parse error:  syntax error, unexpected '{' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 53
+[16-Jan-2018 20:43:36 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 54
+[16-Jan-2018 22:34:42 UTC] PHP Parse error:  syntax error, unexpected '/' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 51
+[16-Jan-2018 22:39:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 58
+[16-Jan-2018 22:43:13 UTC] PHP Parse error:  syntax error, unexpected 'route' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/8f5241915984f0657f51aee0c5b2a586bc58e800.php on line 77
+[16-Jan-2018 23:35:32 UTC] PHP Parse error:  syntax error, unexpected 'route' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:36:09 UTC] PHP Parse error:  syntax error, unexpected 'route' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:36:41 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:37:04 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:37:10 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:37:24 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:37:27 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 12
+[16-Jan-2018 23:37:43 UTC] PHP Parse error:  syntax error, unexpected ':' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/eed4a126f605d4a835c3432798e74acd9f57c351.php on line 17
+[17-Jan-2018 00:07:38 UTC] WTF
+[17-Jan-2018 00:08:03 UTC] WTF
+[17-Jan-2018 04:17:32 UTC] PHP Parse error:  syntax error, unexpected 'dump' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CommentsController.php on line 98
+[17-Jan-2018 04:17:45 UTC] PHP Parse error:  syntax error, unexpected 'dump' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CommentsController.php on line 98
+[17-Jan-2018 04:18:11 UTC] PHP Parse error:  syntax error, unexpected 'dump' (T_STRING) in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/CommentsController.php on line 98
+[17-Jan-2018 04:57:51 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/ac5b1197d76814ac57cad8db178b92647ff09ce7.php on line 19
+[17-Jan-2018 04:58:17 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/ac5b1197d76814ac57cad8db178b92647ff09ce7.php on line 17
+[17-Jan-2018 04:58:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/ac5b1197d76814ac57cad8db178b92647ff09ce7.php on line 17
+[17-Jan-2018 05:03:13 UTC] PHP Fatal error:  Class 'form' not found in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/ac5b1197d76814ac57cad8db178b92647ff09ce7.php on line 15
+[17-Jan-2018 05:04:19 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/ac5b1197d76814ac57cad8db178b92647ff09ce7.php on line 15
+[17-Jan-2018 07:47:47 UTC] PHP Fatal error:  Class 'Purifier' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 64
+[17-Jan-2018 07:48:56 UTC] PHP Fatal error:  Class 'Purifier' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 64
+[17-Jan-2018 08:09:36 UTC] WTF
+[17-Jan-2018 08:09:46 UTC] WTF
+[17-Jan-2018 08:27:51 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/storage/framework/views/1811701310c4d5d20643e2f16948491747fd82f0.php on line 24
+[17-Jan-2018 08:29:50 UTC] PHP Fatal error:  Class 'Image' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 70
+[17-Jan-2018 09:13:58 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 175
+[17-Jan-2018 09:13:58 UTC] PHP Parse error:  syntax error, unexpected ',' in /home1/anatheso/public_html/bradfieldconsulting/site/app/Http/Controllers/PostController.php on line 175
+[17-Jan-2018 09:40:11 UTC] WTF
+[17-Jan-2018 14:31:36 UTC] WTF
+[17-Jan-2018 15:27:06 UTC] WTF
+[17-Jan-2018 15:27:40 UTC] WTF
+[17-Jan-2018 15:28:30 UTC] WTF
+[17-Jan-2018 15:28:58 UTC] WTF
+[17-Jan-2018 17:59:44 UTC] WTF
+[17-Jan-2018 23:36:00 UTC] WTF
+[17-Jan-2018 23:38:46 UTC] WTF

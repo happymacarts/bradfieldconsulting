@@ -1,0 +1,56 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+Auth::routes();
+
+Route::get('/', function () {
+    return view('main');
+});
+
+Route::get('/grade', function () {
+	return view('grades');
+});
+
+
+//pages
+Route::get('/about', 'PagesController@about')->name('about');
+Route::get('/services', 'PagesController@services')->name('services');
+
+Route::get('/partners', 'PagesController@partners')->name('partners');
+Route::get('/calendar','PagesController@calendar')->name('calendar');
+
+Route::get('/contact','PagesController@contact')->name('contact');
+Route::post('/contact','PagesController@postContact')->name('contact');
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/blog/{slug}', [
+		'uses'=>'BlogController@getSingle',
+		'as'=>'blog.single'
+	])->where('slug', '[\w\d\-\_]+');
+
+Route::get('/blog/',[
+		'uses'=>'BlogController@index',
+		'as'=>'blog.index']);
+
+Route::resource('posts','PostController');
+Route::resource('categories','CategoryController',['except'=>['create']]);
+Route::resource('tags','TagController',['except'=>['create']]);
+//Route::resource('comments','TagController');
+
+
+Route::post('comments/{post_id}', ['uses'=>'CommentsController@store',	'as'=>'comments.store']);
+Route::get('comments/{id}/edit',  ['uses'=>'CommentsController@edit',	'as'=>'comments.edit']);
+Route::put('comments/{id}', 	  ['uses'=>'CommentsController@update',	'as'=>'comments.update']);
+Route::delete('comments/{id}',    ['uses'=>'CommentsController@destroy','as'=>'comments.destroy']);
+Route::get('comments/{id}/delete',['uses'=>'CommentsController@delete','as'=>'comments.delete']);
