@@ -1,7 +1,0 @@
-[09-Jan-2018 03:35:42 UTC] PHP Fatal error:  Class 'App\Providers\Schema' not found in /home1/anatheso/public_html/bradfieldconsulting/site/app/Providers/AppServiceProvider.php on line 16
-[12-Jan-2018 18:19:13 UTC] PHP Parse error:  syntax error, unexpected '}' in /home1/anatheso/public_html/bradfieldconsulting/site/database/migrations/2018_01_12_173655_add_slug_to_users.php on line 22
-[12-Jan-2018 18:19:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home1/anatheso/public_html/bradfieldconsulting/site/database/migrations/2018_01_12_173655_add_slug_to_users.php on line 34
-[14-Jan-2018 08:35:52 UTC] PHP Parse error:  syntax error, unexpected ''category_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home1/anatheso/public_html/bradfieldconsulting/site/database/factories/ModelFactory.php on line 33
-[14-Jan-2018 08:43:30 UTC] PHP Fatal error:  Class 'Faker' not found in /home1/anatheso/public_html/bradfieldconsulting/site/database/seeds/PostTagSeeder.php on line 15
-[14-Jan-2018 09:02:32 UTC] PHP Fatal error:  Class 'Faker' not found in /home1/anatheso/public_html/bradfieldconsulting/site/database/seeds/CategoriesTableSeeder.php on line 18
-[17-Jan-2018 08:21:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home1/anatheso/public_html/bradfieldconsulting/site/database/migrations/2018_01_17_081904_add_image_column_to_posts.php on line 29
