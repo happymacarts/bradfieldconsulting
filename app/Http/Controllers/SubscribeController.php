@@ -34,7 +34,11 @@ class SubscribeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $this->validate([
+        		'email'=>'required|email'
+        ]);
+        
+        $
     }
 
     /**

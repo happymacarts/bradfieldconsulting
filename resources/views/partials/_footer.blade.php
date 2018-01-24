@@ -58,7 +58,7 @@
 				</div>
 <div class="clearfix visible-md-block"></div>
 				<div class="col-lg-3 col-md-6 contact">
-					<h3>Contact Info</h3><span>{{  env('APP_NAME', 'Did not work')  }}?</span>
+					<h3>Contact Info</h3> 
 					<ul class="list-unstyled">
 						<li><a href="tel:#{{ config('app.phone', '(951) 757-4814') }}"><span class="fa fa-phone fa-fw text-info"></span>
 								{{env('APP_PHONE','(951) 757-4814')}}</a></li>
