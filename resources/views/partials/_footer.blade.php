@@ -14,13 +14,13 @@
 						<div class="col-sm-12">
 							<p>Welcome to the leading company delivering accounting services that combine quality, reliability and compliance!</p> 
 						<p><em>Follow Us:</em> 
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://www.facebook.com/pg/bradfieldconsulting/">
 							<span class="fa-stack fa-lg ">
 							  <i class="fa fa-circle fa-stack-2x "></i>
 							  <i class="fa fa-facebook-f fa-stack-1x fa-inverse text-primary"></i>
 							</span></a>
 							
-							<a target="_blank" href="#">
+							<!-- <a target="_blank" href="#">
 							<span class="fa-stack fa-lg ">
 							  <i class="fa fa-circle fa-stack-2x "></i>
 							  <i class="fa fa-linkedin fa-stack-1x fa-inverse text-primary"></i>
@@ -31,7 +31,7 @@
 							  <i class="fa fa-circle fa-stack-2x "></i>
 							  <i class="fa fa-instagram fa-stack-1x fa-inverse text-primary"></i>
 							</span></a>
-							
+							 -->
 							
 					
 						</div>
@@ -60,9 +60,9 @@
 				<div class="col-lg-3 col-md-6 contact">
 					<h3>Contact Info</h3> 
 					<ul class="list-unstyled">
-						<li><a href="tel:#{{ config('app.phone', '(951) 757-4814') }}"><span class="fa fa-phone fa-fw text-info"></span>
-								{{env('APP_PHONE','(951) 757-4814')}}</a></li>
-						<li><a href="mailto:{{env('APP_EMAIL','#')}}"><span class="fa fa-envelope-o fa-fw text-info"></span>
+						<li><a href="tel:#{{ config('app.phone', '(951) 291-8464') }}"><span class="fa fa-phone fa-fw text-info"></span>
+								{{env('APP_PHONE','(951) 291-8464')}}</a></li>
+						<li><a href="mailto:{{env('APP_EMAIL','info@bradfieldconsulting.com')}}"><span class="fa fa-envelope-o fa-fw text-info"></span>
 								{{env('APP_EMAIL','info@bradfieldconsulting.com')}}</a></li>
 						<li><a href="#">
 								<span class="fa fa-clock-o fa-fw text-info"></span><span style="display:inline-block; vertical-align:top;margin-left:3px;">
@@ -81,15 +81,19 @@
 					<h3>Subscribe</h3>
 					<div>Get the latest info</div>
 					<div class="row">
-						<form class="inline-form">
+						<form class="inline-form" id="subscribe_form">{{ csrf_field() }}
 							<div class="col-sm-12">
 								<div class="input-group input-group-lg">
-									<input type="text" class="form-control" placeholder="Email"> <span
+									<input id="subscribe-email" type="email" class="form-control" placeholder="Email" name="email" required> <span
 										class="input-group-btn">
-										<button class="btn btn-default " type="button">Sign Up</button>
+										<input class="btn btn-default " type="submit" value="Sign Up"/>
 									</span>
 								</div>
+								
 								<!-- /input-group -->
+							</div>
+							<div class="col-sm-12">
+							<span class="form-error text-danger bg-danger hide"></span>
 							</div>
 							<!-- /.col-lg-6 -->
 						</form>

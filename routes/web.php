@@ -16,9 +16,16 @@ Route::get('/', function () {
     return view('main');
 });
 
-Route::get('/grade', function () {
+
+Route::get('/grades', function () {
 	return view('grades');
 });
+Route::get('/chsef', function () {
+	return view('chsef');
+});
+    Route::get('/chsef/unpaid', function () {
+        return view('unpaid');
+    });
 
 
 //pages
@@ -54,3 +61,6 @@ Route::get('comments/{id}/edit',  ['uses'=>'CommentsController@edit',	'as'=>'com
 Route::put('comments/{id}', 	  ['uses'=>'CommentsController@update',	'as'=>'comments.update']);
 Route::delete('comments/{id}',    ['uses'=>'CommentsController@destroy','as'=>'comments.destroy']);
 Route::get('comments/{id}/delete',['uses'=>'CommentsController@delete','as'=>'comments.delete']);
+
+
+Route::post('subscribe', ['uses'=>'SubscribeController@store', 'as'=>'subscribe.store']);

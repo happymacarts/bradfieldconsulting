@@ -185,7 +185,16 @@ span.fa-stack.fa-lg:active .fa-stack-1x,
 span.fa-stack.fa-lg:focus .fa-stack-1x{
     color:#fff;
 }
+span.form-error.text-danger.bg-danger {
+    padding: 4px;
+    margin-top: 4px;
+    display: block;
+    font-weight: 700;
+}
 
+.has-error .form-control{
+    background-color:#f2dede; 
+}
 
 
 /*Carousel*/

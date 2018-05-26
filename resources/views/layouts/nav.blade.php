@@ -65,9 +65,9 @@
 					
 					<li>
 						<div class="header_socials unit unit-horizontal hidden-md">
-							<a target="_blank" href="{{env('APP_FB','https://www.facebook.com/bradfieldconsulting/')}}"><i class="fa fa-facebook"></i></a> <a
-								target="_blank" href="#"><i class="fa fa-twitter"></i></a> <a
-								target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+							<a target="_blank" href="{{env('APP_FB','https://www.facebook.com/bradfieldconsulting/')}}"><i class="fa fa-facebook"></i></a> 
+							<a target="_blank" href="#"><i class="fa fa-twitter"></i></a> 
+							<!-- <a target="_blank" href="#"><i class="fa fa-instagram"></i></a>-->
 						</div>
 					</li>
 				</ul>

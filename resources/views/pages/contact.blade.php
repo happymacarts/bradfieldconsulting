@@ -4,10 +4,6 @@
 
 @section('banner')
 	<h1>Contact Us</h1>
-	<?php 
-	error_log("WTF");
-	error_log("Big trouble, we're all out of FOOs!", 1,
-               "me@josephbradfield.com");?>
 @endsection
 
 @section('content')

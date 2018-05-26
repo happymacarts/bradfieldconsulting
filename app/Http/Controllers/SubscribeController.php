@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use \App\Subscription;
+use Session;
 
 class SubscribeController extends Controller
 {
@@ -34,11 +36,17 @@ class SubscribeController extends Controller
      */
     public function store(Request $request)
     {
-        $this->validate([
-        		'email'=>'required|email'
+    	$this->validate($request,[
+        		'email'=>'required|email|unique:subscriptions'
         ]);
         
-        $
+        $sub = new Subscription;
+        $sub->email = $request->email;
+        $sub->save();
+        
+       Session::flash('success','New Email Added.');
+        
+        return redirect('/');
     }
 
     /**

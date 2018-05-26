@@ -56,7 +56,7 @@
 									<!--<i class="fa fa-phone fa-3x text-primary"></i>-->
 							</div>
 							<div class="unit-body">
-								<a class="text-gray-base text-bold reveal-block" href="callto:{{env('APP_PHONE', '#') }}">(951) 757-4814</a>
+								<a class="text-gray-base text-bold reveal-block" href="callto:{{env('APP_PHONE', '(951) 291-8464') }}">(951) 291-8464</a>
 								<a
 									href="mailto:{{ config('APP_EMAIL', 'info@bradfieldconsulting.com') }}"><span> {{ config('app.email', 'info@bradfieldconsulting.com') }}</span></a>
 							</div>
@@ -65,9 +65,9 @@
 					
 					<li>
 						<div class="header_socials unit unit-horizontal hidden-md">
-							<a target="_blank" href="{{env('APP_FB','https://www.facebook.com/bradfieldconsulting/')}}"><i class="fa fa-facebook"></i></a> <a
-								target="_blank" href="#"><i class="fa fa-twitter"></i></a> <a
-								target="_blank" href="#"><i class="fa fa-instagram"></i></a>
+							<a target="_blank" href="{{env('APP_FB','https://www.facebook.com/bradfieldconsulting/')}}"><i class="fa fa-facebook"></i></a> 
+							<!-- <a target="_blank" href="#"><i class="fa fa-twitter"></i></a> 
+							<a target="_blank" href="#"><i class="fa fa-instagram"></i></a>-->
 						</div>
 					</li>
 				</ul>

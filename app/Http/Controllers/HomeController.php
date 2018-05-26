@@ -27,11 +27,11 @@ class HomeController extends Controller
         return view('home');
     }*/
     
-    public function index(Google $google)
+    public function index()
     {
-    	$result = $google->getBooks();
-    return 	print_r($result);
+    	//$result = $google->getBooks();
+    //return 	print_r($result);
     	
-    //	return view('home');
+    	return view('home');
     }
 }

@@ -18,7 +18,7 @@ window.Vue = require('vue');
 Vue.component('example', require('./components/Example.vue'));
 
 const app = new Vue({
-    el: '#app'
+    el: '#app' 
 });
 
 
@@ -38,5 +38,32 @@ $(document).ready(function($){
 				$('.ui-to-top').fadeOut(duration).addClass('hide');
 			}
 			 
+	})
+	
+	
+	$('#subscribe_form').on('submit',function(e){
+		e.preventDefault();
+		data = $(this).serialize();
+		$.ajax({
+			url:'/subscribe',
+			data:data, 
+			method:'POST',
+			success:function(msg){
+				console.log(msg);
+				$('#subscribe-email').val('');
+				$('#subscribe-email').closest('.input-group').removeClass('has-error');
+				$('#subscribe_form .form-error').text('').hide().addClass('hide');
+			},
+			statusCode:{
+				422:function(msg){
+			
+					err = msg.responseJSON.email
+					$('#subscribe_form .form-error').text(err).show().removeClass('hide');
+					$('#subscribe-email').closest('.input-group').addClass('has-error')
+					
+				}
+			}
+		})
+		
 	})
 })
