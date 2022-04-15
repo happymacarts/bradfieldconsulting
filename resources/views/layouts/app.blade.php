@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="Sp36SJxvRv6yE5zEgPOXnARg2mmNGyfg65Nj51SbU5U" />
+    <meta name="google-site-verification" content="Sp36SJxvRv6yE5zEgPOXnARg2mmNGyfg65Nj51SbU5U" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     @include('partials._favicon')
@@ -16,10 +16,14 @@
     <!-- <link href="css/style.css" rel="stylesheet"> -->
     
     @yield('styles')
-    
+    <!-- Start of  Zendesk Widget script -->
+    <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=fbd3ca73-ed3f-4721-ba6a-3baa50aa06dd"> </script>
+    <!-- End of  Zendesk Widget script -->
     @yield('head_scripts')
 </head>
 <body class="{{ camel_case(Route::current()->getName()) ?: 'home' }}">
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=764111990735331&autoLogAppEvents=1" nonce="JVsIRkVY"></script>
     <div id="app">
 <!-- Navigation -->
 	     @include('partials._nav')	    

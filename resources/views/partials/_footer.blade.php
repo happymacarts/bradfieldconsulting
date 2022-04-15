@@ -14,24 +14,24 @@
 						<div class="col-sm-12">
 							<p>Welcome to the leading company delivering accounting services that combine quality, reliability and compliance!</p> 
 						<p><em>Follow Us:</em> 
-							<a target="_blank" href="https://www.facebook.com/pg/bradfieldconsulting/">
+							<a target="_blank" href="{{env('APP_FB','https://www.facebook.com/pg/bradfieldconsulting/')}}">
 							<span class="fa-stack fa-lg ">
 							  <i class="fa fa-circle fa-stack-2x "></i>
 							  <i class="fa fa-facebook-f fa-stack-1x fa-inverse text-primary"></i>
 							</span></a>
 							
-							<!-- <a target="_blank" href="#">
+							<a target="_blank" href="{{env('APP_LI','https://www.linkedin.com/in/ana-bradfield-606ab279/')}}">
 							<span class="fa-stack fa-lg ">
 							  <i class="fa fa-circle fa-stack-2x "></i>
 							  <i class="fa fa-linkedin fa-stack-1x fa-inverse text-primary"></i>
 							</span></a>
 							
-							<a target="_blank" href="#">
+							<a target="_blank" href="{{env('APP_IG','https://www.instagram.com/bradfield_consulting/')}}">
 							<span class="fa-stack fa-lg ">
 							  <i class="fa fa-circle fa-stack-2x "></i>
 							  <i class="fa fa-instagram fa-stack-1x fa-inverse text-primary"></i>
 							</span></a>
-							 -->
+							
 							
 					
 						</div>
@@ -49,11 +49,11 @@
 					<ul class="list-unstyled">
 						<li ><a href="about">About</a></li>	
 						<li ><a href="/services">Services</a></li>	
-						<li ><a href="/Partners">Partners</a></li>
+						<li ><a href="/partners">Partners</a></li>
 						<li ><a href="contact">Contact Us</a></li>	
 						
 						<li class="{{Route::current()->getName()=='calendar'?'active':''}}"><a href="/calendar">Calendar</a></li>
-						<li class="{{Route::current()->getName()=='blog'?'active':''}}"><a href="/blog">Blog</a></li>				
+						{{-- <li class="{{Route::current()->getName()=='blog'?'active':''}}"><a href="/blog">Blog</a></li>				 --}}
 					</ul>
 				</div>
 <div class="clearfix visible-md-block"></div>
@@ -66,14 +66,14 @@
 								{{env('APP_EMAIL','info@bradfieldconsulting.com')}}</a></li>
 						<li><a href="#">
 								<span class="fa fa-clock-o fa-fw text-info"></span><span style="display:inline-block; vertical-align:top;margin-left:3px;">
-								<span class="text-bold text-gray-base reveal-block">Mon - Sat: 9AM - 6PM</span>
-								<span>Sunday CLOSED</span></span></a></li>
-						<li><a href="#"><span class="fa fa-map-marker fa-fw text-info"></span>
-								<address>
-									<span class="text-bold text-gray-base 
-									reveal-block">39804 Oak Cliff Drive</span>
-										<span>Temecula, CA 92591</span>
-								</address></a></li>
+								<span class="text-bold text-gray-base reveal-block">{{env('APP_HOURS', "Mon - Fri 9AM–6PM")}}</span>
+								<span>{{env('APP_HOURS_CLOSED', "Saturday & Sunday CLOSED")}}</span></span></a></li>
+						<li><a href="#">
+							<span class="fa fa-map-marker fa-fw text-info"></span>
+							<address>
+								<span class="text-bold text-gray-base reveal-block">39804 Oak Cliff Drive</span>
+								<span>Temecula, CA 92591</span>
+							</address></a></li>
 					</ul>
 				</div>
 
@@ -110,8 +110,11 @@
 					<div class="col-lg-12">
 						<div class="copyright">
 							<p>
-							{{ config('app.name', 'Laravel') }} &copy;<?= Date('Y');?> - All Rights Reserved
-						</p>
+								{{ config('app.name', 'Laravel') }} &copy;<?= Date('Y');?> - All Rights Reserved. 
+								CTEC# A327868 
+								CAGE# 943W4 
+								NAICS# 541213
+							</p>
 						</div>
 					</div>
 				</div>

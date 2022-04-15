@@ -23,13 +23,18 @@ class PagesController extends Controller
 	{
 		return view('pages.contact');
 	}
+	public function contact_ana() 
+	{
+		return view('contact.ana');
+	}
 	
 	public function postContact(Request $request)
 	{
 		$this->validate($request, [
 				'email'=>'required|email',
 				'message'=>'required|min:10',
-				'subject'=>'required|min:3'
+				'subject'=>'required|min:3',
+				'recaptcha_token' => 'required'
 		]);
 		
 		$data =[
@@ -37,6 +42,7 @@ class PagesController extends Controller
 				'subject'=>$request->subject,
 				'bodyMessage'=>$request->message
 		];
+		info($request);
 		
 		Mail::send('emails.contact', $data, function($message)use ($data){
 			$message->from($data['email']);

@@ -44,7 +44,7 @@ class SubscribeController extends Controller
         $sub->email = $request->email;
         $sub->save();
         
-       Session::flash('success','New Email Added.');
+        Session::flash('success','New Email Added.');
         
         return redirect('/');
     }

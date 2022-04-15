@@ -15,9 +15,7 @@
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse"
-				id="bs-example-navbar-collapse-1">
-				
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">			
 				<ul class="nav navbar-nav navbar-right hidden-sm hidden-xs site-info">
 					<li>
 						<div class="unit unit-horizontal unit-middleX unit-spacing-sm">
@@ -26,8 +24,8 @@
 									height="32"><!-- <i class="fa fa-clock-o fa-3x text-primary"></i>
 							 --></div>
 							<div class="unit-body">
-								<span class="text-bold text-gray-base reveal-block">Mon - Sat: 9AM - 6PM</span>
-								<span>Sunday CLOSED</span>
+								<span class="text-bold text-gray-base reveal-block">Mon - Fri: 9AM - 6PM</span>
+								<span>Saturday & Sunday CLOSED</span>
 							</div>
 						</div>
 					</li>
@@ -56,7 +54,7 @@
 									<!--<i class="fa fa-phone fa-3x text-primary"></i>-->
 							</div>
 							<div class="unit-body">
-								<a class="text-gray-base text-bold reveal-block" href="callto:{{env('APP_PHONE', '(951) 291-8464') }}">(951) 291-8464</a>
+								<a class="text-gray-base text-bold reveal-block" href="callto:{{config('APP_PHONE', '(951) 757-4814') }}">{{config('APP_PHONE', '(951) 757-4814') }}</a>
 								<a
 									href="mailto:{{ config('APP_EMAIL', 'info@bradfieldconsulting.com') }}"><span> {{ config('app.email', 'info@bradfieldconsulting.com') }}</span></a>
 							</div>
@@ -64,64 +62,75 @@
 					</li>
 					
 					<li>
-						<div class="header_socials unit unit-horizontal hidden-md">
-							<a target="_blank" href="{{env('APP_FB','https://www.facebook.com/bradfieldconsulting/')}}"><i class="fa fa-facebook"></i></a> 
-							<!-- <a target="_blank" href="#"><i class="fa fa-twitter"></i></a> 
-							<a target="_blank" href="#"><i class="fa fa-instagram"></i></a>-->
+						<div class="header_socials unit unit-horizontal hidden-md" style="font-size:1rem">
+							<a target="_blank" title="Facebook" href="{{env('APP_FB','https://www.facebook.com/pg/bradfieldconsulting/')}}">
+								<span class="fa-stack fa-md ">
+									<i class="fa fa-circle fa-stack-2x "></i>
+									<i class="fa fa-facebook-f fa-stack-1x fa-inverse text-primary"></i>
+								</span>
+							</a>
+		
+							<a target="_blank" title="LinkedIn" href="{{env('APP_LI','https://www.linkedin.com/in/ana-bradfield-606ab279/')}}">
+							 	<span class="fa-stack fa-md ">
+									<i class="fa fa-circle fa-stack-2x "></i>
+									<i class="fa fa-linkedin fa-stack-1x fa-inverse text-primary"></i>
+								</span>
+							</a> 
+
+							<a target="_blank" title="Instagram" href="{{env('APP_IG','https://www.instagram.com/bradfield_consulting/')}}">
+								<span class="fa-stack fa-md ">
+									<i class="fa fa-circle fa-stack-2x "></i>
+									<i class="fa fa-instagram fa-stack-1x fa-inverse text-primary"></i>
+								</span>
+							</a>
 						</div>
 					</li>
 				</ul>
-</nav>
-
-				<nav class="navbar navbar-inverse collapse navbar-collapse">
-					<ul class="nav navbar-nav">
-						<li class="{{Route::current()->getName()=='about'?'active':''}}"><a href="/about">About</a></li>
-						<li class="{{Route::current()->getName()=='services'?'active':''}}"><a href="/services">Services</a></li>
-						<li class="{{Route::current()->getName()=='partners'?'active':''}}"><a href="/partners">Partners</a></li>
-						<li class="{{Route::current()->getName()=='contact'?'active':''}}"><a href="/contact">Contact Us</a></li>
-						<li class="{{Route::current()->getName()=='calendar'?'active':''}}"><a href="/calendar">Calendar</a></li>
-						
-					
-						<li class="{{Route::current()->getName()=='blog'?'active':''}}"><a href="/blog">Blog</a></li>
-						
-					</ul>
-					
-					<ul class="nav navbar-nav navbar-right">
-						@if (Auth::guest())
-						<li><a href="{{ route('login') }}">Login</a></li>
-						<li><a href="{{ route('register') }}">Register</a></li> 
-						
-						@else
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle"
-							data-toggle="dropdown" role="button" aria-expanded="false"> 
-								{{Auth::user()->name }} <span class="caret"></span>
-							</a>
-							
-							<ul class="dropdown-menu" role="menu">
-								
-								<li class="{{Route::current()->getName()=='posts'?'active':''}}"><a href="/posts">Posts</a></li>
-								<li><a href="http://bradfieldconsulting.com/posts/create" > <span class="fa fa-plus-circle "></span> Create Post</a></li>
-								<li class="{{Route::current()->getName()=='categories'?'active':''}}"><a href="/categories">Categories</a></li>
-								<li class="{{Route::current()->getName()=='tags'?'active':''}}"><a href="/tags">Tags</a></li>
-								
-								<li role="separator" class="divider"></li>
-								<li><a href="{{ route('logout') }}"
-									onclick="event.preventDefault();
-                        document.getElementById('logout-form').submit();"><span class="fa fa-sign-out"></span> Logout
-									</a></li>
-								
-								<li>
-									<form id="logout-form" action="{{ route('logout') }}"
-										method="POST" style="display: none;">{{ csrf_field() }}</form></li>
-							</ul>
-						</li> 
-						@endif
-					</ul>
-				</nav>
 			</div>
-			<!-- /.navbar-collapse -->
 		</div>
-		<!-- /.container-fluid -->
+	</nav>
 
+	<nav class="navbar navbar-inverse collapse navbar-collapse">
+		<ul class="nav navbar-nav">
+			<li class="{{Route::current()->getName()=='about'?'active':''}}"><a href="/about">About</a></li>
+			<li class="{{Route::current()->getName()=='services'?'active':''}}"><a href="/services">Services</a></li>
+			<li class="{{Route::current()->getName()=='partners'?'active':''}}"><a href="/partners">Partners</a></li>
+			<li class="{{Route::current()->getName()=='contact'?'active':''}}"><a href="/contact">Contact Us</a></li>
+			<li class="{{Route::current()->getName()=='calendar'?'active':''}}"><a href="/calendar">Calendar</a></li>		
+			{{-- <li class="{{Route::current()->getName()=='blog'?'active':''}}"><a href="/blog">Blog</a></li> --}}			
+		</ul>
+		
+		<ul class="nav navbar-nav navbar-right">
+			@if (Auth::guest())
+			<li><a href="{{ route('login') }}">Login</a></li>
+			<li><a href="{{ route('register') }}">Register</a></li> 
+			
+			@else
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-expanded="false"> 
+					{{Auth::user()->name }} <span class="caret"></span>
+				</a>
+				
+				<ul class="dropdown-menu" role="menu">
+					
+					<li class="{{Route::current()->getName()=='posts'?'active':''}}"><a href="/posts">Posts</a></li>
+					<li><a href="http://bradfieldconsulting.com/posts/create" > <span class="fa fa-plus-circle "></span> Create Post</a></li>
+					<li class="{{Route::current()->getName()=='categories'?'active':''}}"><a href="/categories">Categories</a></li>
+					<li class="{{Route::current()->getName()=='tags'?'active':''}}"><a href="/tags">Tags</a></li>
+					
+					<li role="separator" class="divider"></li>
+					<li><a href="{{ route('logout') }}"
+						onclick="event.preventDefault();
+            document.getElementById('logout-form').submit();"><span class="fa fa-sign-out"></span> Logout
+						</a></li>
+					
+					<li>
+						<form id="logout-form" action="{{ route('logout') }}"
+							method="POST" style="display: none;">{{ csrf_field() }}</form></li>
+				</ul>
+			</li> 
+			@endif
+		</ul>
+	</nav>
 </header>

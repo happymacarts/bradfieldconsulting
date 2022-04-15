@@ -20,12 +20,12 @@ Route::get('/', function () {
 Route::get('/grades', function () {
 	return view('grades');
 });
-Route::get('/chsef', function () {
-	return view('chsef');
-});
-    Route::get('/chsef/unpaid', function () {
-        return view('unpaid');
-    });
+// Route::get('/chsef', function () {
+// 	return view('chsef');
+// });
+// Route::get('/chsef/unpaid', function () {
+//     return view('unpaid');
+// });
 
 
 //pages
@@ -36,7 +36,8 @@ Route::get('/partners', 'PagesController@partners')->name('partners');
 Route::get('/calendar','PagesController@calendar')->name('calendar');
 
 Route::get('/contact','PagesController@contact')->name('contact');
-Route::post('/contact','PagesController@postContact')->name('contact');
+Route::get('/contact/ana','PagesController@contact_ana')->name('contact_ana');
+Route::post('/contact','PagesController@postContact');
 
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -51,6 +52,7 @@ Route::get('/blog/',[
 		'as'=>'blog.index']);
 
 Route::resource('posts','PostController');
+Route::resource('calendar-blocks','CalendarBlockController');
 Route::resource('categories','CategoryController',['except'=>['create']]);
 Route::resource('tags','TagController',['except'=>['create']]);
 //Route::resource('comments','TagController');

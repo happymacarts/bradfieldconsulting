@@ -20,7 +20,8 @@
 							<li class="list-group-item">
 								
 								<a href="https://campus.tvusd.k12.ca.us/campus/portal/portal.xsl?x=portal.PortalOutline&lang=en&personType=parent&context=17300-661-647&personID=17300&studentFirstName=Jaden&lastName=Bradfield&firstName=Jaden&schoolID=20&calendarID=661&structureID=647&calendarName=17-18%20Chaparral%20High%20School&mode=grades&x=portal.PortalGrades" target="_blank">2017 <img class="img-rounded" src="/images/jaden.jpg" height ="60px"></a>
-								</li></ul>
+							</li>
+						</ul>
 					</li>
 				</ol>
 			</div>
