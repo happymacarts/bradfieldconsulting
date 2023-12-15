@@ -34,7 +34,14 @@
 		<hr class="my-4">
 		<p>Book a free consultation today so we can see how to improve your business financials and long term goals...</p>
 		<p class="lead">
-		<a class="btn btn-primary btn-lg" href="/contact?s=Free Consultation" role="button">Free Consultation</a>
+		<!-- <a class="btn btn-primary btn-lg" href="/contact?s=Free Consultation" role="button">Free Consultation</a> -->
+		<a class="btn btn-primary btn-lg" href="https://calendly.com/biztaxconsult" target="_blank" role="button">Free Consultation</a>
+		</p>
+	</div>
+	<div>
+		<h2>CHECK OUT OUR LATEST PRESS RELEASE:</h2>
+		<p>
+			<a targrt="_blank" href="https://www.issuewire.com/local-business-owner-ana-bradfield-named-to-nsba-leadership-council-1738716902526802"> Press Release</a>
 		</p>
 	</div>
 	<div class="powr-social-feed" id="45b7105a_1647967063"></div><script src="https://www.powr.io/powr.js?platform=html"></script>

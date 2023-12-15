@@ -97,8 +97,10 @@
 			<p>
 			In addition to educating our clients, Bradfield Consulting, Inc. is dedicated to networking with only the best and brightest professionals in the Valley. In March of 2019 Bradfield Consulting, Inc. became a Founding Member of Business Networking International (BNI) - Temecula Business Uncorked. 
 			</p>
-			<p>
+			<!-- <p>
 			If you are interested in booking a FREE CONSULTATION, you can now book your appointment via <a target="_blank" href="https://www.facebook.com/bradfieldconsulting/#:~:text=Book%20now">Facebook&hellip;</a> we look forward to working with you!</p>
+			 -->
+		<a class="btn btn-primary btn-lg" href="https://calendly.com/biztaxconsult" target="_blank" role="button">Free Consultation</a>
 			<div class="row">
 				<div class="col-md-6">
 					<div class="thumbnailx">
@@ -250,7 +252,11 @@
 		clients' accounting needs of all kinds
 
 </ul> -->
-			<h2><a href="/contact?s=Free%20Consult" class="btn btn-primary">Book your free consultation now</a></h2>
+			<h2>
+				<!-- <a href="/contact?s=Free%20Consult" class="btn btn-primary">Book your free consultation now</a> -->
+
+				<a class="btn btn-primary btn-lg" href="https://calendly.com/biztaxconsult" target="_blank" role="button">Free Consultation</a>
+			</h2>
 		</div>
  
 	</div>

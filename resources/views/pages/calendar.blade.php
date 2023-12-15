@@ -14,7 +14,7 @@
 <div class="container">
 	<div class="row">
 		<a class="btn btn-primary btn-lg" href="/contact" role="button">Contact Us</a>
-		<a class="btn btn-primary btn-lg" href="https://www.schedulicity.com/scheduling/BC9L37/services" role="button" target="_blank">Schedule a Free Consultation</a>
+		<a class="btn btn-primary btn-lg" href="https://calendly.com/biztaxconsult" role="button" target="_blank">Schedule a Free Consultation</a>
 	</div>
 </div>
 @endsection

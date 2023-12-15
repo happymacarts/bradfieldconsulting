@@ -45,12 +45,12 @@ class PagesController extends Controller
 		info($request);
 		
 		Mail::send('emails.contact', $data, function($message)use ($data){
-			$message->from($data['email']);
+			$message->from('info@bradfieldfieldconsulting.com'); 
 			$message->to('info@bradfieldconsulting.com');
 			$message->subject($data['subject']);
 		});
 		
-		Session::flash('success',"Your email has been sent");
+		Session::flash('success',"Your email has been sent.");
 		
 		return redirect()->route('contact');
 	}

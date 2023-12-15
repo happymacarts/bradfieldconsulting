@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use \App\Subscription;
 use Session;
+use Mail;
 
 class SubscribeController extends Controller
 {
@@ -44,9 +45,25 @@ class SubscribeController extends Controller
         $sub->email = $request->email;
         $sub->save();
         
+        $data =[
+                'email'=>$request->email,
+                'subject'=>"New user subscription to Bradfield Consulting Inc. Website",
+                'bodyMessage'=>"A new User has subscribed on the website.\n $request->email"
+        ];        
+        Mail::send('emails.contact', $data, function($message)use ($data){
+            $message->from('info@bradfieldfieldconsulting.com'); 
+            $message->to('info@bradfieldconsulting.com');
+            $message->subject($data['subject']);
+        });
+
+
         Session::flash('success','New Email Added.');
+        $result = [
+            "status" => "success",
+            "message" => "New Email Added."
+        ];
         
-        return redirect('/');
+        return $result;//redirect('/');
     }
 
     /**

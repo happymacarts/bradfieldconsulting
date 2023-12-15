@@ -19,7 +19,7 @@
 				</div>
 				
 				<div class="form-group">
-					<label name="email">Subject:</label>
+					<label for="subject">Subject:</label>
 					<input id="subject" name="subject" class="form-control" 
 					value ="<?php if(isset($_GET['s'])){echo old('email') ?? 'Free Consult';	}?>">
 				</div>
@@ -31,19 +31,19 @@
 				</div>
 				
 				<div class="form-group">
-					<label name="email">Message:</label>
+					<label for="message">Message:</label>
 					<textarea id="message" name="message"  class="form-control" value ="{{old('message')}}"></textarea>  
 				</div>
 				
 				<input type="submit" class="btn btn-default" value="Send Message"/>
-			</form>			
+			</form>	
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-lg-3 col-md-6 contact">
 			<h3>Contact Info</h3> 
 			<ul class="list-unstyled">
-				<li><a href="tel:# {{env("APP_PHONE")}}"><span class="fa fa-phone fa-fw text-info"></span>
+				<li><a href='tel:# {{env("APP_PHONE")}}'><span class="fa fa-phone fa-fw text-info"></span>
 						{{-- {{config('app.APP_PHONE', " (951) 291-8464")}} --}}
 						{{env("APP_PHONE")}}
 					</a></li>
@@ -56,6 +56,9 @@
 					</a>
 				</li>
 			</ul>
+			<p>
+				<a class="btn btn-primary btn-lg" href="https://calendly.com/biztaxconsult" target="_blank" role="button">Free Consultation</a>		
+			</p>
 		</div>
 	</div>
 </div>
@@ -65,5 +68,5 @@ grecaptcha.ready(function() {
   grecaptcha.execute('{{ env('GOOGLE_CAPTCHA_PUBLIC_KEY') }}')    .then(function(token) {
    document.getElementById("recaptcha_token").value = token;
  }); });
-</script>P
+</script>
 @endsection	

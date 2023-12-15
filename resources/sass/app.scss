@@ -135,7 +135,8 @@ footer{
 }
 
 footer .contact a,
-footer .footer-nav a {
+footer .footer-nav a,
+footer a {
   color: #fff;
   text-decoration: none;
   -webkit-transition: .33s all ease-out;
@@ -143,7 +144,8 @@ footer .footer-nav a {
 }
 
 footer .contact a:hover,
-footer .footer-nav a:hover {
+footer .footer-nav a:hover,
+footer a:hover  {
   color: #44BEF1;
   text-decoration: none;
 }

@@ -24,8 +24,8 @@
 									height="32"><!-- <i class="fa fa-clock-o fa-3x text-primary"></i>
 							 --></div>
 							<div class="unit-body">
-								<span class="text-bold text-gray-base reveal-block">Mon - Fri: 9AM - 6PM</span>
-								<span>Saturday & Sunday CLOSED</span>
+								<span class="text-bold text-gray-base reveal-block">{!! env('APP_HOURS', "Mon - Fri 9AM–6PM") !!}</span>
+								<span>{!! env('APP_HOURS_CLOSED', "Saturday & Sunday CLOSED") !!}</span>
 							</div>
 						</div>
 					</li>

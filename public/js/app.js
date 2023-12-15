@@ -1022,11 +1022,14 @@ $(document).ready(function ($) {
 				$('#subscribe-email').val('');
 				$('#subscribe-email').closest('.input-group').removeClass('has-error');
 				$('#subscribe_form .form-error').text('').hide().addClass('hide');
+        window.location.reload();
 			},
 			statusCode: {
-				422: function _(msg) {
+				422: function (msg) {
+          console.log(msg);
 
-					err = msg.responseJSON.email;
+					// err = msg.responseJSON.email;
+          err = "This email has already been added.";
 					$('#subscribe_form .form-error').text(err).show().removeClass('hide');
 					$('#subscribe-email').closest('.input-group').addClass('has-error');
 				}

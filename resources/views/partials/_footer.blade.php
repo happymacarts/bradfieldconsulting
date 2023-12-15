@@ -66,7 +66,7 @@
 								{{env('APP_EMAIL','info@bradfieldconsulting.com')}}</a></li>
 						<li><a href="#">
 								<span class="fa fa-clock-o fa-fw text-info"></span><span style="display:inline-block; vertical-align:top;margin-left:3px;">
-								<span class="text-bold text-gray-base reveal-block">{{env('APP_HOURS', "Mon - Fri 9AM–6PM")}}</span>
+								<span class="text-bold text-gray-base reveal-block">{!! env('APP_HOURS', "Mon - Fri 9AM–6PM") !!}</span>
 								<span>{{env('APP_HOURS_CLOSED', "Saturday & Sunday CLOSED")}}</span></span></a></li>
 						<li><a href="#">
 							<span class="fa fa-map-marker fa-fw text-info"></span>
@@ -98,7 +98,11 @@
 							<!-- /.col-lg-6 -->
 						</form>
 					</div>
-				</div>
+					<p style="margin-top:1em;">
+						<a href="https://www.nsba.biz/" target="_blank" class="text-white">
+						Proud Members of the NSBA
+						<img class="img-responsive" src="/images/nsba-logo.png">
+					</p>
 			</div>
 
 		</div>

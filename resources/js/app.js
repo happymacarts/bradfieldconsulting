@@ -53,6 +53,7 @@ $(document).ready(function($){
 				$('#subscribe-email').val('');
 				$('#subscribe-email').closest('.input-group').removeClass('has-error');
 				$('#subscribe_form .form-error').text('').hide().addClass('hide');
+				window.location.reload();
 			},
 			statusCode:{
 				422:function(msg){

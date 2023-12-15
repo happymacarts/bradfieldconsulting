@@ -17,9 +17,9 @@ Route::get('/', function () {
 });
 
 
-Route::get('/grades', function () {
-	return view('grades');
-});
+// Route::get('/grades', function () {
+// 	return view('grades');
+// });
 // Route::get('/chsef', function () {
 // 	return view('chsef');
 // });
